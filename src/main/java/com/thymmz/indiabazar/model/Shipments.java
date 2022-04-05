@@ -1,5 +1,6 @@
 package com.thymmz.indiabazar.model;
 
+import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -8,8 +9,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 import java.sql.Timestamp;
 
-@Getter
-@Setter
+@Data
 @Entity(name = "Shipments")
 public class Shipments {
     @Id
